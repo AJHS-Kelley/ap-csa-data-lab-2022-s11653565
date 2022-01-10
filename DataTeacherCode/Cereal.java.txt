@@ -1,7 +1,7 @@
-// Mauricio Salmoran , 01/10/22, AP Data Lab 2022, v0.1
+// Mauricio Salmoran , 01/10/22, AP Data Lab 2022, v0.15
 
 public class Cereal 
-
+{
 
     private String cerealName;
     private double fiber;
@@ -18,4 +18,18 @@ public class Cereal
 
     }
 
-    
+    public Cereal()
+    {
+        name = "";
+        fiber = 0.0;
+        cups = 0.0;
+        FPC = 0.0;
+
+    }
+
+
+
+
+
+
+}
