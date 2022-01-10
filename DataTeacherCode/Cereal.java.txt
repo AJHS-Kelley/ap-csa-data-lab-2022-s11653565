@@ -1,4 +1,4 @@
-// Mauricio Salmoran , 01/10/22, AP Data Lab 2022, v0.15
+// Mauricio Salmoran , 01/10/22, AP Data Lab 2022, v0.2
 
 public class Cereal 
 {
@@ -29,7 +29,24 @@ public class Cereal
 
 
 
+    // Getters 
 
+    public String getName()
+    {
+        return name;
+    }
 
+    public double getFiber()
+    {
+        return fiber;
+    }
 
-}
+    public double getCups()
+    {
+        return cups;
+    }
+
+    public double getFPC()
+    {
+        return FPC;
+    }
